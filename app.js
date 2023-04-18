@@ -15,7 +15,7 @@ const blogRoute = require("./routes/blogRoutes");
 
 // Connect to MongoDB Database
 const dbURL =
-  "mongodb+srv://UserOlla:User6243@nodedb.ybjrr9v.mongodb.net/myblog-db?retryWrites=true&w=majority";
+  "mongodb+srv://<Username:Password>@nodedb.ybjrr9v.mongodb.net/myblog-db?retryWrites=true&w=majority";
 
 mongoose
   .connect(dbURL)
